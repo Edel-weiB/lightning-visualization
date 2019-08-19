@@ -1,4 +1,4 @@
-Year,Month,Day,Hour,Minute,Second,Latitude,Londitude,Height,sigma ,Flash
+Year,Month,Day,Hour,Minute,Second,Latitude,Londitude,Height(m),sigma ,Flash No.
 2013,8,1,0,0,43.830116,35.33529,135.83171,6803,2.75E-03,1
 2013,8,1,0,0,43.830238,35.34389,135.83305,7122,1.33E-03,1
 2013,8,1,0,0,43.830538,35.38562,135.8418,9834,2.61E-03,1

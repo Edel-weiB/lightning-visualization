@@ -27,12 +27,12 @@ def plot_lightning(file):
         else:
             plt.pause(delay)
 
-    min_long = min(lighting_data['Londitude'])
-    max_long = max(lighting_data['Londitude'])
-    min_lat = min(lighting_data['Latitude'])
-    max_lat = max(lighting_data['Latitude'])
-    min_h = min(lighting_data['Height'])
-    max_h = max(lighting_data['Height'])
+    min_long = min(file['Londitude'])
+    max_long = max(file['Londitude'])
+    min_lat = min(file['Latitude'])
+    max_lat = max(file['Latitude'])
+    min_h = min(file['Height'])
+    max_h = max(file['Height'])
     
     ax.set_xlabel('Latitude')
     ax.set_ylabel('Londitude')
