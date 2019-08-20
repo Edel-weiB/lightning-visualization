@@ -83,12 +83,13 @@ def main():
 
         ax.scatter(xs, ys, zs, s=1, c = color, alpha=0.8)
         
-        delay = lighting_data["Second"][i+1] - lighting_data["Second"][i]
+        #delay = lighting_data["Second"][i+1] - lighting_data["Second"][i]
+        delay = (lighting_data["Minute"][i+1] - lighting_data["Minute"][i])/60
         if delay > 0.05:
             plt.pause(1)
         else:
             if delay <= 0:
-                delay = 0.01
+                delay = 0.001
             plt.pause(delay)
 
 
